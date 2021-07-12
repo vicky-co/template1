@@ -364,6 +364,10 @@ footer p{
   font-weight: 1000;
 }
 
+footer a:hover{
+  color: rgb(0, 188, 245);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .left_footer p{
   padding-left: 150px;
 
@@ -395,6 +399,7 @@ footer p{
   left: -100px;
 }
 .right_footer .eml{
-  position: relative;
-  left: -108px;
+  position:absolute;
+  left: 1150px;
+  top: 1460px;
 }
