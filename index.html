@@ -12,7 +12,7 @@
 
 <body>
   <header>
-    <a href="#default" class="logo"><i class="fas fa-phone"></i></a>
+    <a href="#default" class="logo" ><i class="fas fa-phone"></i></a>
     <a href="tel:+18007228987">Phone: + 1800 722 8987</a>
     <div class="header-right">
       <i class="fas fa-envelope"></i>
@@ -32,9 +32,9 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a class="links" href="#">Link 1</a>
-          <a class="links" href="#">Link 2</a>
-          <a class="links" href="#">Link 3</a>
+          <a class="links" href="#home">Part 1</a>
+          <a class="links" href="#home">Part 2</a>
+          <a class="links" href="#home">Part 3</a>
         </div>
       </div>
 
@@ -43,9 +43,9 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a class="links" href="#">Link 1</a>
-          <a class="links" href="#">Link 2</a>
-          <a class="links" href="#">Link 3</a>
+          <a class="links" href="#Page1">Page 1</a>
+          <a class="links" href="#Page2">Page 2</a>
+          <a class="links" href="#PPage">Page 3</a>
         </div>
       </div>
 
@@ -60,9 +60,9 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a class="links" href="#">Link 1</a>
-          <a class="links" href="#">Link 2</a>
-          <a class="links" href="#">Link 3</a>
+          <a class="links" href="#Department1">Department 1</a>
+          <a class="links" href="#Department2">Department 2</a>
+          <a class="links" href="#DepartmBlog">Department 3</a>
         </div>
       </div>
 
@@ -71,9 +71,9 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a class="links" href="#">Link 1</a>
-          <a class="links" href="#">Link 2</a>
-          <a class="links" href="#">Link 3</a>
+          <a class="links" href="#Blog1">Blog 1</a>
+          <a class="links" href="#Blog2">Blog 2</a>
+          <a class="links" href="#Blog3">Blog3</a>
         </div>
       </div>
 
@@ -82,16 +82,16 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a class="links" href="#">Link 1</a>
-          <a class="links" href="#">Link 2</a>
-          <a class="links" href="#">Link 3</a>
+          <a class="links" href="#contact1">contact 1</a>
+          <a class="links" href="#contact2">contact 2</a>
+          <a class="links" href="#contact3">contact 3</a>
         </div>
       </div>
 
     </div>
   </div>
 
-  <div class="banner">
+  <div class="banner" id="home">
     <img src="backg.jpg" alt="">
     <p class="Den">Denteur</p>
     <br>
@@ -103,10 +103,10 @@
 
   <div class="details">
     <div class="details-left">
-      <p>OUR OFFICE</p>
+      <p class="office">OUR OFFICE</p>
       <a href="">Get In Touch</a>
       <p href="" class="line"></p>
-      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+      <p class="pgp">It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
       <form action="data.php" method="POST">
         <div class="dv">
           <input placeholder="Name" type="text" />
@@ -126,11 +126,31 @@
 
     </div>
     <div class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85666.83107226748!2d-74.10068721686221!3d40.6584271782608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a54c112a4df%3A0x98fbecd81ba1563b!2sBrooklyn%20Boulders!5e0!3m2!1sen!2sin!4v1626071515003!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="yes" loading="lazy"></iframe>
-
-    </div>
-
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85666.83107226748!2d-74.10068721686221!3d40.6584271782608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a54c112a4df%3A0x98fbecd81ba1563b!2sBrooklyn%20Boulders!5e0!3m2!1sen!2sin!4v1626071515003!5m2!1sen!2sin" width="720" height="510" style="border:0;" allowfullscreen="yes" loading="lazy"></iframe>
+    </div>   
   </div>
+  <footer>
+    <div class="left_footer" id="contact1">
+      <i class="fas fa-phone phn"></i>
+      <p href="">Phone</p>
+      <a href="tel:3476221406">347-622-1406</a>
+      <BR></BR>
+      <a href="tel:2123221299">212-322-1299</a>
+    </div>
+    <div class="center_footer"  id="contact2">
+      <i class="fa fa-map-marker mapa" aria-hidden="true"></i>
+      <p href="">Address</p>
+      <a href="https://goo.gl/maps/6FzmxsZRq2Mzjtzh8">PO BOX 33195 NW 56th ST Miami</a>
+      <br>
+      <a class="fl" href="https://goo.gl/maps/6FzmxsZRq2Mzjtzh8">FLORIDA</a>
+    </div>
+    <div class="right_footer" id="contact3">
+      <i class="fas fa-envelope mail"></i>
+      <p href="">Email</p>
+      <a href="mailto:info@denteur.com">info@denteur.com</a>
+      <a class="eml" href="mailto:support@denteur.com">support@denteur.com</a>
+    </div>
+  </footer>
 </body>
 
 </html>

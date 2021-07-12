@@ -1,6 +1,6 @@
 header {
     overflow: hidden;
-    background-color: rgb(14, 158, 158);
+    background-color: rgb(14, 141, 158);
     position: sticky;
     top: 0px;
     z-index: 10;
@@ -193,7 +193,7 @@ header {
 
 
 
-.details-left p{
+.office{
   color:rgb(86, 191, 233);
   font-size: 24px;
   position: relative;
@@ -213,16 +213,20 @@ header {
 
 
 .line{
-  width: 2.4%;
+  width: 5%;
   position:absolute;
   left: 45px;
-  top: -27px;
-  border-bottom: solid rgb(43, 165, 236) 5px;
+  border-bottom: solid rgb(63, 175, 240) 5px;
   border-radius: 2px;
 }
 
+.pgp{
+  padding-left: 40px;
+  font-size: 26.5px;
+  color:rgb(192, 188, 188) ;
+  padding-top: 10px;
 
-
+}
 form{
   width: 500px;
 
@@ -276,14 +280,14 @@ textarea::placeholder{
 
 
 .map{
-  position: relative;
-  top: -300px;
+  position: absolute;
+  top: 680px;
   right: 10px;
   float: right;
 }
 
 .btn{
-  padding-left: 50px;
+  padding-left: 80px;
 }
 
 .msg:hover{
@@ -298,10 +302,99 @@ textarea::placeholder{
 
 .msg{
   background-color: rgb(67, 186, 233);
-  padding: 5px;
+  padding: 10px 25px;
   color: #f1f1f1;
   border: solid ;
   font-weight: 700;
+  font-size: 1rem;
+  border-radius: 10px;
 }
 
 
+footer{
+  margin-top: 100px;
+  border-bottom: solid rgb(141, 138, 138) 3px ;
+  margin-bottom: 100px;
+}
+
+.left_footer{
+  float: left;
+  border: solid transparent 2px;
+  background-color: rgb(230, 231, 231);
+  height: 250px;
+  width: 400px;
+  margin-left: 7%;
+}
+.center_footer{
+  display: inline-block;
+  border: solid transparent 2px;
+  background-color: rgb(230, 231, 231);
+  height: 250px;
+  width: 400px;
+  margin-left: 4%;
+}
+.right_footer{
+  float: right;
+  border: solid transparent 2px;
+  background-color: rgb(230, 231, 231);
+  height: 250px;
+  width: 400px;
+  margin-right: 5%;
+}
+
+.phn,.mapa,.mail{
+  font-size: 65px;
+  padding-top: 20px;
+  padding-left: 160px;
+  color: rgb(9, 163, 190);
+}
+
+
+
+footer a{
+  text-decoration: none;
+  color: rgb(131, 129, 129);
+  font-size: 18px;
+  font-weight: 700;
+  
+}
+
+footer p{
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+.left_footer p{
+  padding-left: 150px;
+
+}
+.left_footer a{
+  padding-left: 130px;
+  text-decoration: none;
+}
+
+
+.center_footer p{
+  padding-left: 150px;
+}
+.center_footer a{
+  padding-left: 65px;
+}
+.center_footer .fl{
+  padding-left: 150px;
+}
+
+.right_footer p{
+  position: relative;
+  top: 80px;
+  left: -60px;
+}
+.right_footer a{
+  position: relative;
+  top: 80px;
+  left: -100px;
+}
+.right_footer .eml{
+  position: relative;
+  left: -108px;
+}
