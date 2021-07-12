@@ -3,6 +3,7 @@ header {
     background-color: rgb(14, 158, 158);
     position: sticky;
     top: 0px;
+    z-index: 10;
     /* padding: 20px 10px; */
   }
   body {
@@ -190,6 +191,31 @@ header {
 }
 
 
+
+
+.details-left p{
+  color:rgb(86, 191, 233);
+  font-size: 24px;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.details-left a{
+  width: 60%;
+  color:rgb(0, 0, 0);
+  font-size: 36px;
+  text-decoration: none;
+  font-weight: 900;
+  padding-left: 40px;
+}
+
+.details-left a{
+  border-bottom:solid black;
+}
+
+
+
 form{
   width: 500px;
 
@@ -223,6 +249,7 @@ input::placeholder{
 
 .dv textarea{
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 textarea::placeholder{
@@ -252,6 +279,16 @@ textarea::placeholder{
   padding-left: 50px;
 }
 
+.msg:hover{
+  border: solid rgb(150, 243, 255) 4px;
+  padding: 10px;
+}
+
+.msg:active{
+  border: dotted red 2px;
+}
+
+
 .msg{
   background-color: rgb(67, 186, 233);
   padding: 5px;
@@ -259,3 +296,6 @@ textarea::placeholder{
   border: solid ;
   font-weight: 700;
 }
+
+
+jfhbvgsadjh
