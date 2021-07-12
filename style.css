@@ -210,8 +210,15 @@ header {
   padding-left: 40px;
 }
 
-.details-left a{
-  border-bottom:solid black;
+
+
+.line{
+  width: 2.4%;
+  position:absolute;
+  left: 45px;
+  top: -27px;
+  border-bottom: solid rgb(43, 165, 236) 5px;
+  border-radius: 2px;
 }
 
 
@@ -298,4 +305,3 @@ textarea::placeholder{
 }
 
 
-jfhbvgsadjh
