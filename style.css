@@ -1,0 +1,261 @@
+header {
+    overflow: hidden;
+    background-color: rgb(14, 158, 158);
+    position: sticky;
+    top: 0px;
+    /* padding: 20px 10px; */
+  }
+  body {
+    width: 100%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+  /* Style the header links */
+  header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    /* line-height: 25px; */
+    /* border-radius: 4px; */
+  }
+  
+  .fa-envelope{
+      float: left;
+      padding-top:12px ;
+      
+  }
+
+  header .logo{
+      padding-left: 70px;
+  }
+  
+  .border {
+    border-right: solid rgb(255, 255, 255) 2px;
+
+ }
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+    padding-right: 50px;
+    color: #f1f1f1;
+    align-items: center;
+    background-color: rgb(78, 89, 99);
+    padding-left: 800px;
+    
+  }
+  .header-right a{
+    padding-left: 20px;
+  }
+ 
+
+
+.sec{
+    padding-top: 25px;
+    overflow: hidden;
+    background-color: transparent;
+  }
+
+
+.sec-right{
+    float: right;    
+}
+
+.dent-logo img{
+    height: 50px;
+    width: 140px;
+    background-color:white ;
+    padding-left: 100px;
+    border-color: white;
+    
+}
+
+.dent-logo {
+  text-decoration: none;
+  
+}
+
+
+.sec-right a{
+  float: left;
+  font-size: 16px;
+  color: rgb(248, 12, 12);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.sec-right{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding-right: 25px;
+    padding-top: px;   
+  }
+  
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    
+  }
+  
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+ .dropdown:hover .dropbtn {
+  background-color: rgb(146, 144, 144);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content .links:hover{
+  background-color: rgb(219, 219, 219);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.banner{
+  width: 100%;
+  overflow: hidden;
+  display: inline-block;
+  height: 500px;
+}
+
+.banner img{
+  opacity: 81%;
+  position: absolute;
+  z-index: -5;
+  height: 500px;
+  width: 100%;
+}
+
+.banner p{
+  padding-top: 320px;
+  position:absolute; 
+  color: #f1f1f1;
+  padding-left: 150px;
+  text-decoration: none;
+}
+
+.Den{
+  font-size: 32px;
+}
+.conus{
+  font-size: 45px;
+  padding-top: 330px;
+  font-weight: 800;
+}
+
+.hm{
+  position:absolute; 
+  color: #f1f1f1;
+  padding-left: 152px;
+  text-decoration: none;
+  padding-top: 420px;
+}
+
+
+form{
+  width: 500px;
+
+}
+
+
+
+input,textarea{
+  outline: 0;
+  border-width: 0px;
+  border-bottom-width:2px;
+  border-color: blue;
+  width: 700px;
+  height: 30px;
+}
+
+input:focus {
+  border-color: green
+}
+
+.dv{
+  padding-left:45px ;
+  padding-bottom: 30px;
+
+}
+
+input::placeholder{
+   font-size: 25px;
+
+}
+
+.dv textarea{
+  padding-top: 50px;
+}
+
+textarea::placeholder{
+  font-size: 26px;
+}
+
+.dvt{
+  display:flex;
+  padding-left: 10px;
+  width: 740px;
+
+}
+.dvt input{
+  margin-left: 30px;
+}
+
+
+
+.map{
+  position: relative;
+  top: -300px;
+  right: 10px;
+  float: right;
+}
+
+.btn{
+  padding-left: 50px;
+}
+
+.msg{
+  background-color: rgb(67, 186, 233);
+  padding: 5px;
+  color: #f1f1f1;
+  border: solid ;
+  font-weight: 700;
+}
