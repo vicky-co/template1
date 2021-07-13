@@ -4,14 +4,14 @@ header {
     position: sticky;
     top: 0px;
     z-index: 10;
-    /* padding: 20px 10px; */
+  
   }
   body {
     width: 100%;
     margin: 0%;
     overflow-x: hidden;
 }
-  /* Style the header links */
+  
   header a {
     float: left;
     color: white;
@@ -20,8 +20,7 @@ header {
     padding-left: 15px;
     text-decoration: none;
     font-size: 18px;
-    /* line-height: 25px; */
-    /* border-radius: 4px; */
+   
   }
   
   .fa-envelope{
@@ -38,7 +37,7 @@ header {
     border-right: solid rgb(255, 255, 255) 2px;
 
  }
-  /* Float the link section to the right */
+
   .header-right {
     float: right;
     padding-right: 50px;
@@ -112,15 +111,15 @@ header {
   color: rgb(0, 0, 0);
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit; 
+  margin: 0; 
 }
 
  .dropdown:hover .dropbtn {
   background-color: rgb(146, 144, 144);
 }
 
-/* Dropdown content (hidden by default) */
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -130,7 +129,7 @@ header {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
+
 .dropdown-content a {
   float: none;
   color: black;
@@ -140,12 +139,12 @@ header {
   text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
+
 .dropdown-content .links:hover{
   background-color: rgb(219, 219, 219);
 }
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -402,4 +401,35 @@ footer a:hover{
   position:absolute;
   left: 1150px;
   top: 1460px;
+}
+
+
+#back2Top {
+  width: 60px;
+  line-height: 60px;
+  overflow: hidden;
+  z-index: 999;
+  display:block;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+  z-index: 1200;
+  border-radius: 90%;
+  background-color: rgb(9, 194, 226);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  opacity: 50%;
+}
+#back2Top:hover {
+  background-color: rgb(19, 200, 255);
+  color: rgb(255, 255, 255);
+  opacity: 80%;
 }
