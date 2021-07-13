@@ -1,6 +1,6 @@
 header {
     overflow: hidden;
-    background-color: rgb(14, 141, 158);
+    background: #556877;
     position: sticky;
     top: 0px;
     z-index: 10;
@@ -11,8 +11,38 @@ header {
     margin: 0%;
     overflow-x: hidden;
 }
+
+header a, .fa-envelope{
+  text-decoration: none;
+  color: white;
+}
+
+.lefthead a{
+  float: left;
+  background: #22bfdb;
+  padding: 15px 12px;
+}
+
+.header-right{
+  float: right;
+  padding: 15px 0;
+  padding-right: 65px;
+}
+
+.border{
+  padding-right: 20px;
+  border-right: solid white 1px;
+  padding-top:5px ;
+  padding-bottom:5px ;
+}
+.fa-envelope{
+  padding-right: 20px;
+}
   
-  header a {
+.fab{
+  padding-left: 20px;
+}
+  /* header a {
     float: left;
     color: white;
     text-align: center;
@@ -38,19 +68,29 @@ header {
 
  }
 
+ .lefthead{
+  float: left;
+  background-color: aqua;
+  
+}
+
   .header-right {
     float: right;
     padding-right: 50px;
     color: #f1f1f1;
     align-items: center;
+    z-index: -12;
+    padding-left: 867px;
     background-color: rgb(78, 89, 99);
-    padding-left: 800px;
+    position:relative;
+    left: 0px;
+    top: -42px;
     
   }
   .header-right a{
     padding-left: 20px;
   }
- 
+  */
 
 
 .sec{
