@@ -381,10 +381,10 @@ footer i{
 
 
 .left_footer a{
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
   text-decoration: none;
-  padding-left: 155px;
+  padding-left: 145px;
   color: #aebcc7;
 }
 .tadd{
@@ -421,9 +421,11 @@ footer i{
 
 
 a:hover{
-  color: aqua;
+  color: rgb(4, 56, 80);
   font-weight: bold;
+  font-size: 19px;
 }
+
 
 
 #back2Top {
